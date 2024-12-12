@@ -1,0 +1,146 @@
+﻿<div class="col-12 col-xl-8 mb-4 mb-xl-0">
+    <h3 class="font-weight-bold" style="color: #F3C623;">Registrar Nuevo Empleado</h3>
+</div>
+<br>
+
+<div class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <form class="form-sample">
+                <p class="card-description">
+                    Información Personal
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Nombre</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Apellidos</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Género</label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <option>Masculino</option>
+                                    <option>Femenino</option>
+                                    <option>No especificado</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Fecha de Nacimiento</label>
+                            <div class="col-sm-9">
+                                <input type="date" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Teléfono</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Correo Electrónico</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="card-description">
+                    Información Laboral
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Cargo</label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <option>Cocinero</option>
+                                    <option>Limpieza</option>
+                                    <option>Administrativo</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Fecha de Contratación</label>
+                            <div class="col-sm-9">
+                                <input type="date" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="card-description">
+                    Dirección
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Dirección 1</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Dirección 2</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Provincia</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Ciudad</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-outline-primary">Registrar</button>
+                    </div>
+                    <div class="col-auto">
+                        <a href="@Url.Action("ListadoEmpleados", "GestionInformacion")" class="btn btn-outline-light">Cancelar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

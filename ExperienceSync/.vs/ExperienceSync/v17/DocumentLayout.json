@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\florm\\Desktop\\ExperienceSync\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C35F904F-DDFC-45DF-88EC-BDB1C1C0F137}|ExperienceSync\\ExperienceSync.csproj|c:\\users\\florm\\desktop\\experiencesync\\experiencesync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C35F904F-DDFC-45DF-88EC-BDB1C1C0F137}|ExperienceSync\\ExperienceSync.csproj|solutionrelative:experiencesync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35F904F-DDFC-45DF-88EC-BDB1C1C0F137}|ExperienceSync\\ExperienceSync.csproj|c:\\users\\florm\\desktop\\experiencesync\\experiencesync\\wwwroot\\styles\\vertical-layout-light\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C35F904F-DDFC-45DF-88EC-BDB1C1C0F137}|ExperienceSync\\ExperienceSync.csproj|solutionrelative:experiencesync\\wwwroot\\styles\\vertical-layout-light\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\florm\\Desktop\\ExperienceSync\\ExperienceSync\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ExperienceSync\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\florm\\Desktop\\ExperienceSync\\ExperienceSync\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ExperienceSync\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAMcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T23:14:20.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\florm\\Desktop\\ExperienceSync\\ExperienceSync\\wwwroot\\Styles\\vertical-layout-light\\style.css",
+              "RelativeDocumentMoniker": "ExperienceSync\\wwwroot\\Styles\\vertical-layout-light\\style.css",
+              "ToolTip": "C:\\Users\\florm\\Desktop\\ExperienceSync\\ExperienceSync\\wwwroot\\Styles\\vertical-layout-light\\style.css",
+              "RelativeToolTip": "ExperienceSync\\wwwroot\\Styles\\vertical-layout-light\\style.css",
+              "ViewState": "AgIAACpvAAAAAAAAAAD4vzdvAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T23:06:04.245Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

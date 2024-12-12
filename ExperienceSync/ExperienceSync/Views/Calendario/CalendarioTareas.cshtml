@@ -1,0 +1,79 @@
+﻿<div>
+    <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+            <h2 class="font-weight-bold" style="color: #F3C623;">Calendario de Eventos y Reservas</h2>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end">
+            <a href="@Url.Action("AgregarEvento", "Calendario")" type="button" class="btn btn-outline-primary btn-icon-text">
+                <i class="ti-agenda"></i>
+                Nueva Reserva
+            </a>
+        </div>
+    </div>
+    <br><br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row d-flex align-items-center" style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <h3 style="margin: 0;">Diciembre 2024</h3>
+                </div>
+                <div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-secondary btn-sm" style="font-size: 14px; padding: 5px 10px;">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" style="font-size: 14px; padding: 5px 10px;">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id='calendar'></div>
+        </div>
+    </div>
+</div>
+
+<!--Se alimentará de la base de datos-->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            headerToolbar: false,
+            events: [
+                {
+                    title: 'Clase de Cocina Italiana',
+                    start: '2024-12-11',
+                    backgroundColor: '#ff6347',
+                    borderColor: '#ff4500',
+                    textColor: '#ffffff'
+                },
+                {
+                    title: 'Taller de Pintura',
+                    start: '2024-12-15',
+                    backgroundColor: '#4CAF50',
+                    borderColor: '#388E3C',
+                    textColor: '#ffffff'
+                },
+                {
+                    title: 'Cata de vinos',
+                    start: '2024-12-15',
+                    backgroundColor: '#ff4500',
+                    borderColor: '#ff4500',
+                    textColor: '#ffffff'
+                },
+                {
+                    title: 'Curso de Fotografía',
+                    start: '2024-12-07',
+                    backgroundColor: '#388E3C',
+                    borderColor: '#388E3C',
+                    textColor: '#ffffff'
+                }
+            ]
+        });
+        calendar.render();
+    });
+</script>
+

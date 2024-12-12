@@ -1,0 +1,144 @@
+﻿<div>
+    <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+        <h2 class="font-weight-bold" style="color: #F3C623;">Asistencia Virtual</h2>
+    </div>
+    <br>
+
+    <section class="assistance">
+        <div class="form-group col-lg-4">
+            <div class="input-group">
+                <input type="text" id="query" class="form-control" placeholder="¿En qué puedo ayudarte?">
+                <div class="input-group-append">
+                    <button id="search-button" class="btn btn-sm btn-light"> <i class="fas fa-search"></i> Buscar</button>
+                </div>
+            </div>
+        </div>
+
+        <ul class="nav nav-tabs" id="assistanceTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="true">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tutorials-tab" data-toggle="tab" href="#tutorials" role="tab" aria-controls="tutorials" aria-selected="false">Tutoriales</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="assistanceTabsContent">
+            <div class="tab-pane fade show active" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                <h3>Preguntas Frecuentes</h3>
+                <ul>
+                    <li><a href="#" onclick="showSteps('descarga')">¿Cómo descargar reportes?</a></li>
+                    <li><a href="#" onclick="showSteps('contrasenna')">¿Cómo cambiar mi contraseña?</a></li>
+                    <li><a href="#" onclick="showSteps('errores')">¿Cómo solucionar errores comunes?</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-pane fade" id="tutorials" role="tabpanel" aria-labelledby="tutorials-tab">
+                <h3>Tutoriales</h3>
+                <ul>
+                    <li><a href="#" onclick="showSteps('tutorialTablero')">Tutorial: Cómo utilizar el módulo del tablero</a></li>
+                    <li><a href="#" onclick="showSteps('tutorialContrasenna')">Tutorial: Cómo cambiar tu contraseña</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <section id="steps-section" style="display:none;">
+            <h3 id="steps-title"></h3>
+            <ol id="steps-list"></ol>
+            <button onclick="hideSteps()" class="btn btn-sm btn-light">Volver</button>
+        </section>
+    </section>
+</div>
+
+<!--Cambiara al desarrollar el modulo-->
+<script>
+    function showSteps(topic) {
+        const stepsSection = document.getElementById('steps-section');
+        const stepsTitle = document.getElementById('steps-title');
+        const stepsList = document.getElementById('steps-list');
+
+        const stepsData = {
+            descarga: {
+                title: 'Pasos para descargar reportes:',
+                steps: [
+                    'Dirígete a la sección del menú Reportes.',
+                    'Selecciona el nombre del reporte que deseas descargar en la lista de selección.',
+                    'Haz clic en el botón "Descargar".'
+                ]
+            },
+            contrasenna: {
+                title: 'Pasos para cambiar tu contraseña:',
+                steps: [
+                    'Presiona tu nombre de usuario que se ubica en la esquina superior derecha.',
+                    'Selecciona la opción "Cambiar Contraseña".',
+                    'Introduce tu contraseña actual.',
+                    'Escribe tu nueva contraseña y confírmala.',
+                    'Haz clic en "Guardar".'
+                ]
+            },
+            errores: {
+                title: 'Pasos para solucionar errores comunes:',
+                steps: [
+                    'Revisa que tu conexión a internet esté activa.',
+                    'Asegúrate de que el navegador esté actualizado.',
+                    'Verifica que las credenciales ingresadas sean correctas.',
+                    'Contacta al soporte técnico si el problema persiste.'
+                ]
+            },
+            tutorialTablero: {
+                title: 'Tutorial: Cómo utilizar el módulo de Tablero',
+                steps: [
+                    'Ingresa a la opción del menú llamada Tablero de Tareas.',
+                    'Para ingresar una nueva tarea, presiona el botón añadir tarea y llena el formulario.',
+                    'Para cambiar el estado de las tareas, deja presionada la tarjeta y arrástrala a otras columnas.',
+                ]
+            },
+            tutorialContrasenna: {
+                title: 'Tutorial: Cómo cambiar tu contraseña',
+                steps: [
+                    'Inicia sesión en tu cuenta.',
+                    'Dirígete a la sección de Mi perfil.',
+                    'Selecciona la opción "Cambiar Contraseña".',
+                    'Sigue los pasos para actualizar tu contraseña.'
+                ]
+            },
+            cerrarSesion: {
+                title: 'Pasos para cerrar sesión:',
+                steps: [
+                    'Haz clic en tu nombre de usuario ubicado en la esquina superior derecha.',
+                    'Selecciona la opción "Cerrar Sesión".',
+                    'Confirma que deseas cerrar sesión.'
+                ]
+            }
+        };
+
+        const selectedTopic = stepsData[topic];
+        stepsTitle.textContent = selectedTopic.title;
+        stepsList.innerHTML = '';
+
+        selectedTopic.steps.forEach(step => {
+            const li = document.createElement('li');
+            li.textContent = step;
+            stepsList.appendChild(li);
+        });
+
+        stepsSection.style.display = 'block';
+    }
+
+    function hideSteps() {
+        document.getElementById('steps-section').style.display = 'none';
+    }
+
+    document.getElementById('search-button').addEventListener('click', function() {
+        const query = document.getElementById('query').value.trim().toLowerCase();
+        const availableTopics = ['descarga', 'contrasenna', 'errores', 'tutorialtablero', 'tutorialcontrasenna', 'cerrarsesion'];
+
+        const matchedTopic = availableTopics.find(topic => query.includes(topic));
+
+        if (matchedTopic) {
+            showSteps(matchedTopic);
+        } else {
+            alert('No se encontró información relacionada con tu búsqueda.');
+        }
+    });
+</script>

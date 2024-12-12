@@ -1,0 +1,146 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\assets\**" />
+    <Content Remove="wwwroot\assets\**" />
+    <EmbeddedResource Remove="wwwroot\assets\**" />
+    <None Remove="wwwroot\assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Styles\css\vendor.bundle.base.css" />
+    <Content Remove="wwwroot\Styles\feather\feather.css" />
+    <Content Remove="wwwroot\Styles\feather\fonts\feather-webfont.eot" />
+    <Content Remove="wwwroot\Styles\feather\fonts\feather-webfont.svg" />
+    <Content Remove="wwwroot\Styles\feather\fonts\feather-webfont.ttf" />
+    <Content Remove="wwwroot\Styles\feather\fonts\feather-webfont.woff" />
+    <Content Remove="wwwroot\Styles\images\faces\face1.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face10.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face11.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face12.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face13.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face14.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face15.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face16.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face17.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face18.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face19.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face2.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face20.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face21.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face22.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face23.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face24.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face25.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face26.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face27.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face28.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face3.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face4.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face5.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face6.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face7.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face8.jpg" />
+    <Content Remove="wwwroot\Styles\images\faces\face9.jpg" />
+    <Content Remove="wwwroot\Styles\images\favicon.png" />
+    <Content Remove="wwwroot\Styles\images\logo-light.svg" />
+    <Content Remove="wwwroot\Styles\images\logo-mini.svg" />
+    <Content Remove="wwwroot\Styles\images\logo-white.svg" />
+    <Content Remove="wwwroot\Styles\images\logo.svg" />
+    <Content Remove="wwwroot\Styles\images\logo1.svg" />
+    <Content Remove="wwwroot\Styles\js\dataTable.js" />
+    <Content Remove="wwwroot\Styles\js\filtrarServicios.js" />
+    <Content Remove="wwwroot\Styles\js\hoverable-collapse.js" />
+    <Content Remove="wwwroot\Styles\js\jquery.min.js" />
+    <Content Remove="wwwroot\Styles\js\off-canvas.js" />
+    <Content Remove="wwwroot\Styles\js\settings.js" />
+    <Content Remove="wwwroot\Styles\js\template.js" />
+    <Content Remove="wwwroot\Styles\js\todolist.js" />
+    <Content Remove="wwwroot\Styles\js\vendor.bundle.base.js" />
+    <Content Remove="wwwroot\Styles\ti-icons\css\themify-icons.css" />
+    <Content Remove="wwwroot\Styles\ti-icons\fonts\themify.eot" />
+    <Content Remove="wwwroot\Styles\ti-icons\fonts\themify.svg" />
+    <Content Remove="wwwroot\Styles\ti-icons\fonts\themify.ttf" />
+    <Content Remove="wwwroot\Styles\ti-icons\fonts\themify.woff" />
+    <Content Remove="wwwroot\Styles\vertical-layout-light\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Styles\css\vendor.bundle.base.css" />
+    <None Include="wwwroot\Styles\feather\feather.css" />
+    <None Include="wwwroot\Styles\feather\fonts\feather-webfont.eot" />
+    <None Include="wwwroot\Styles\feather\fonts\feather-webfont.svg" />
+    <None Include="wwwroot\Styles\feather\fonts\feather-webfont.ttf" />
+    <None Include="wwwroot\Styles\feather\fonts\feather-webfont.woff" />
+    <None Include="wwwroot\Styles\images\faces\face1.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face10.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face11.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face12.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face13.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face14.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face15.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face16.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face17.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face18.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face19.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face2.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face20.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face21.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face22.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face23.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face24.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face25.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face26.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face27.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face28.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face3.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face4.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face5.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face6.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face7.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face8.jpg" />
+    <None Include="wwwroot\Styles\images\faces\face9.jpg" />
+    <None Include="wwwroot\Styles\images\favicon.png" />
+    <None Include="wwwroot\Styles\images\logo-light.svg" />
+    <None Include="wwwroot\Styles\images\logo-mini.svg" />
+    <None Include="wwwroot\Styles\images\logo-white.svg" />
+    <None Include="wwwroot\Styles\images\logo.svg" />
+    <None Include="wwwroot\Styles\images\logo1.svg" />
+    <None Include="wwwroot\Styles\js\dataTable.js" />
+    <None Include="wwwroot\Styles\js\filtrarServicios.js" />
+    <None Include="wwwroot\Styles\js\hoverable-collapse.js" />
+    <None Include="wwwroot\Styles\js\jquery.min.js" />
+    <None Include="wwwroot\Styles\js\off-canvas.js" />
+    <None Include="wwwroot\Styles\js\settings.js" />
+    <None Include="wwwroot\Styles\js\template.js" />
+    <None Include="wwwroot\Styles\js\todolist.js" />
+    <None Include="wwwroot\Styles\js\vendor.bundle.base.js" />
+    <None Include="wwwroot\Styles\ti-icons\css\themify-icons.css" />
+    <None Include="wwwroot\Styles\ti-icons\fonts\themify.eot" />
+    <None Include="wwwroot\Styles\ti-icons\fonts\themify.svg" />
+    <None Include="wwwroot\Styles\ti-icons\fonts\themify.ttf" />
+    <None Include="wwwroot\Styles\ti-icons\fonts\themify.woff" />
+    <None Include="wwwroot\Styles\vertical-layout-light\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+  </ItemGroup>
+
+</Project>

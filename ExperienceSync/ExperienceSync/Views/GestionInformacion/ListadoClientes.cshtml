@@ -1,0 +1,90 @@
+﻿<div class="row">
+    <div class="col-md-6 d-flex justify-content-start">
+        <h2 class="font-weight-bold" style="color: #F3C623;">Clientes Registrados</h2>
+    </div>
+
+    <div class="col-md-6 d-flex justify-content-end">
+        <a href="@Url.Action("AgregarCliente", "GestionInformacion")" type="button" class="btn btn-outline-primary btn-icon-text">
+            <i class="fas fa-user-plus"></i>
+            Agregar Cliente
+        </a>
+    </div>
+</div>
+<br>
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive pt-3">
+                <table class="table table-bordered" id="tabla">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Correo Electrónico</th>
+                            <th>Teléfono</th>
+                            <th>Recibir Publicidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <button class="btn btn-check btn-rounded btn-icon btn-sm">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </button>
+                            </td>
+                            <td>1</td>
+                            <td>Juan Pérez</td>
+                            <td>juan.perez@example.com</td>
+                            <td>555-1234</td>
+                            <td>Sí</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="btn btn-check btn-rounded btn-icon btn-sm">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </button>
+                            </td>
+                            <td>2</td>
+                            <td>María López</td>
+                            <td>maria.lopez@example.com</td>
+                            <td>555-5678</td>
+                            <td>No</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="btn btn-check btn-rounded btn-icon btn-sm">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </button>
+                            </td>
+                            <td>3</td>
+                            <td>Carlos García</td>
+                            <td>carlos.garcia@example.com</td>
+                            <td>555-9012</td>
+                            <td>Sí</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#tabla").DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/1.13.1/i18n/es-ES.json'
+            },
+            dom: '<"d-flex justify-content-between align-items-center mb-3"<"filtro-busqueda"f><"mostrar-registros"l>>' +
+                't' +
+                '<"d-flex justify-content-between align-items-center mt-3"<"informacion"i><"paginacion"p>>',
+            columnDefs: [{ type: "string", targets: [1, 2, 3, 4, 5] }]
+        });
+    });
+
+</script>

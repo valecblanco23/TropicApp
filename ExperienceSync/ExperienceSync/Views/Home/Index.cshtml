@@ -1,0 +1,130 @@
+﻿<div class="col-12 col-xl-8 mb-4 mb-xl-0">
+    <h2 class="font-weight-bold" style="color: #F3C623;">Gestor de Operaciones ExperienceSync</h2>
+</div>
+<br>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Tareas Completadas</h5>
+                    <p class="display-4 text-success">80%</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Eventos Próximos</h5>
+                    <p class="display-4 text-warning">5</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Usuarios Activos</h5>
+                    <p class="display-4 text-primary">12</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Mensajes Pendientes</h5>
+                    <p class="display-4 text-danger">4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Notificaciones Recientes</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Nuevo mensaje de María Pérez.</li>
+                        <li class="list-group-item">Evento "Reunión semanal" programado para mañana.</li>
+                        <li class="list-group-item">Tarea "Actualizar inventario" vence en 2 días.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Accesos Rápidos</h5>
+                    <a href="@Url.Action("TableroKanban", "Tablero")" class="btn btn-primary btn-icon-text w-100 mb-2">
+                        <i class="fas fa-plus-circle"></i> Crear Nueva Tarea
+                    </a>
+                    <a href="@Url.Action("CalendarioTareas", "Calendario")" class="btn btn-light btn-icon-text w-100 mb-2">
+                        <i class="fas fa-calendar-plus"></i> Agregar Evento al Calendario
+                    </a>
+                    <a href="@Url.Action("Reportes", "Reportes")" class="btn btn-warning btn-icon-text w-100">
+                        <i class="fas fa-file-alt"></i> Descargar Reporte
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Resumen de Actividades</h5>
+                    <canvas id="activityChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const ctx = document.getElementById('activityChart').getContext('2d');
+        const activityChart = new Chart(ctx, {
+            type: 'line', // Tipo de gráfico (puedes usar bar, pie, etc.)
+            data: {
+                labels: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'],
+                datasets: [
+                    {
+                        label: 'Tareas Completadas',
+                        data: [5, 8, 6, 9, 7, 10, 8],
+                        borderColor: '#4C8577',
+                        backgroundColor: 'rgba(76, 133, 119, 0.2)',
+                        fill: true,
+                        tension: 0.4,
+                    },
+                    {
+                        label: 'Eventos Agregados',
+                        data: [2, 4, 1, 3, 5, 2, 4],
+                        borderColor: '#544B3D',
+                        backgroundColor: 'rgba(84, 75, 61, 0.2)',
+                        fill: true,
+                        tension: 0.4,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    },
+                    title: {
+                        display: true,
+                        text: 'Resumen Semanal de Actividades'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    });
+</script>

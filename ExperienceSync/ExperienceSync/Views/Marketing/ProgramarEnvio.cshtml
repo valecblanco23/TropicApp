@@ -1,0 +1,48 @@
+﻿<div class="col-12 col-xl-8 mb-4 mb-xl-0">
+    <h2 class="font-weight-bold" style="color: #F3C623;">Programar Envío de Correo Masivo</h2>
+</div>
+<br>
+
+<div class="card">
+    <div class="card-body">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="rol">Destinatarios</label>
+                    <select class="form-control" id="rol" name="Rol" required>
+                        <option value="val">Todos los clientes</option>
+                        <option value="val">Grupo 1 - Clientes de Talleres</option>
+                        <option value="val">Grupo 2 - Clientes de Clases de Cocina</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="fechaEnvio">Fecha y Hora del Envío</label>
+                    <input type="datetime-local" class="form-control" id="fechaEnvio" name="fechaEnvio" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-12">
+                    <label for="asunto">Asunto del Correo</label>
+                    <input type="text" class="form-control" id="asunto" name="Asunto" placeholder="Ingrese el asunto del correo" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-12">
+                    <label for="cuerpoCorreo">Cuerpo del Correo</label>
+                    <textarea class="form-control" id="cuerpoCorreo" name="Cuerpo" rows="6" placeholder="Escriba el contenido del correo" required></textarea>
+                </div>
+            </div>
+
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-outline-primary">Programar</button>
+                </div>
+                <div class="col-auto">
+                    <a href="@Url.Action("HistorialEnvio", "Marketing")" class="btn btn-outline-light">Cancelar</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

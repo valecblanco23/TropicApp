@@ -1,0 +1,144 @@
+﻿<!--Se definirán a la hora del desarrollo del módulo-->
+<style>
+    .kanban-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .kanban-column {
+        width: 30%;
+        background-color: #e2e2e2;
+        padding: 10px;
+        border-radius: 5px;
+        min-height: 700px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .kanban-task {
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+        .kanban-task:hover {
+            background-color: #f0f0f0;
+        }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 500px;
+    }
+
+    #todo {
+        background-color: #E1F5FE;
+    }
+
+    #in-progress {
+        background-color: #FFF3E0;
+    }
+
+    #done {
+        background-color: #E8F5E9;
+    }
+</style>
+
+<div>
+    <div class="row">
+        <div class="col-md-6 d-flex justify-content-start">
+            <h2 class="font-weight-bold" style="color: #F3C623;">Tablero de Tareas</h2>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end">
+            <button class="btn btn-outline-primary" id="addTaskBtn">Añadir tarea</button>
+        </div>
+    </div>
+
+    <div class="kanban-container">
+        <div class="kanban-column" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h4 class="font-weight-bold" style="color: #007BFF; text-align: center;">Pendientes</h4>
+            <div class="kanban-task" id="task1" draggable="true" ondragstart="drag(event)">Contactar Proveedores</div>
+            <div class="kanban-task" id="task2" draggable="true" ondragstart="drag(event)">Confirmar Reservas</div>
+        </div>
+
+        <div class="kanban-column" id="in-progress" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h4 class="font-weight-bold" style="color: #FF851B; text-align: center;">En Progreso</h4>
+        </div>
+
+        <div class="kanban-column" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h4 class="font-weight-bold" style="color: #28A745; text-align: center;">Finalizadas</h4>
+            <div class="kanban-task" id="task3" draggable="true" ondragstart="drag(event)">Agendar taller de Cerámica</div>
+        </div>
+    </div>
+</div>
+
+<div id="taskModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h3 class="font-weight-bold" style="color: #F3C623;">Registrar Tarea</h3>
+        <br>
+        <div class="form-group">
+            <label>Título</label>
+            <input type="text" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label>Detalle</label>
+            <input type="text" class="form-control" required>
+        </div>
+        <button class="btn btn-outline-primary" id="saveTaskBtn">Añadir tarea</button>
+    </div>
+</div>
+
+<!--Se definirán a la hora del desarrollo del módulo-->
+<script>
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+
+    function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+    }
+
+    function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        var draggedTask = document.getElementById(data);
+        ev.target.appendChild(draggedTask);
+    }
+
+    var modal = document.getElementById("taskModal");
+    var btn = document.getElementById("addTaskBtn");
+    var span = document.getElementById("closeModal");
+    var saveBtn = document.getElementById("saveTaskBtn");
+
+    btn.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+</script>
