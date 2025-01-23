@@ -14,7 +14,7 @@ public class ExperienceSyncContext : IdentityDbContext<ExperienceSyncUser>
     }
     public DbSet<Cliente> Clientes { get; set; }
     public DbSet<Servicio> Servicios { get; set; }
-    public DbSet<Socio> Socios { get; set; }
+    
     public DbSet<Local> Locales { get; set; }
     public DbSet<Reserva> Reservas { get; set; }
     public DbSet<Proveedor> Proveedores { get; set; }
