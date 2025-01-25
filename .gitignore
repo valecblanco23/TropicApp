@@ -1,0 +1,18 @@
+# Archivos y carpetas comunes de Visual Studio a ignorar
+.vs/
+*.user
+*.suo
+*.log
+*.obj
+*.exe
+*.dll
+*.cache
+*.pdb
+bin/
+obj/
+Debug/
+Release/
+
+# Archivos de sistema
+Thumbs.db
+desktop.ini
