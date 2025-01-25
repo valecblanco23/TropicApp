@@ -17,279 +17,279 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExperienceSync
 build_property.RootNamespace = ExperienceSync
-build_property.ProjectDir = C:\Users\florm\Desktop\ExperienceSync\ExperienceSync\
+build_property.ProjectDir = C:\UNIVERSIDAD\DISEÑO Y DESARROLLO\TropicApp\ExperienceSync\ExperienceSync\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\florm\Desktop\ExperienceSync\ExperienceSync
+build_property.MSBuildProjectDirectory = C:\UNIVERSIDAD\DISEÑO Y DESARROLLO\TropicApp\ExperienceSync\ExperienceSync
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Error.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/AsistenteVirtual/AsistenteVirtual.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/AsistenteVirtual/AsistenteVirtual.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpc3RlbnRlVmlydHVhbFxBc2lzdGVudGVWaXJ0dWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Autenticacion/Login.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Autenticacion/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZW50aWNhY2lvblxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Autenticacion/RecuperarPassword.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Autenticacion/RecuperarPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZW50aWNhY2lvblxSZWN1cGVyYXJQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Calendario/CalendarioTareas.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Calendario/CalendarioTareas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kYXJpb1xDYWxlbmRhcmlvVGFyZWFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/CatalogoServicios/AgregarServicio.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/CatalogoServicios/AgregarServicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29TZXJ2aWNpb3NcQWdyZWdhclNlcnZpY2lvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/CatalogoServicios/ListadoServicios.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/CatalogoServicios/ListadoServicios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29TZXJ2aWNpb3NcTGlzdGFkb1NlcnZpY2lvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/ControlUsuario/AgregarUsuario.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/ControlUsuario/AgregarUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbFVzdWFyaW9cQWdyZWdhclVzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/ControlUsuario/ListadoUsuarios.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/ControlUsuario/ListadoUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbFVzdWFyaW9cTGlzdGFkb1VzdWFyaW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/GestionInformacion/AgregarCliente.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/GestionInformacion/AgregarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkluZm9ybWFjaW9uXEFncmVnYXJDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/GestionInformacion/AgregarEmpleado.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/GestionInformacion/AgregarEmpleado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkluZm9ybWFjaW9uXEFncmVnYXJFbXBsZWFkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/GestionInformacion/ListadoClientes.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/GestionInformacion/ListadoClientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkluZm9ybWFjaW9uXExpc3RhZG9DbGllbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/GestionInformacion/ListadoEmpleados.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/GestionInformacion/ListadoEmpleados.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkluZm9ybWFjaW9uXExpc3RhZG9FbXBsZWFkb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Home/Botones.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Home/Botones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb3RvbmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Home/Formularios.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Home/Formularios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtdWxhcmlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Home/Index.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Home/Privacy.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Marketing/HistorialEnvio.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Marketing/HistorialEnvio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0aW5nXEhpc3RvcmlhbEVudmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Marketing/ProgramarEnvio.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Marketing/ProgramarEnvio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0aW5nXFByb2dyYW1hckVudmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Reportes/Graficos.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Reportes/Graficos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcR3JhZmljb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Reportes/Reportes.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Reportes/Reportes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Shared/Error.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Shared/_LayoutExterno.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Shared/_LayoutExterno.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFeHRlcm5vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Tablero/TableroKanban.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Tablero/TableroKanban.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVyb1xUYWJsZXJvS2FuYmFuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/_ViewImports.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/_ViewStart.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/florm/Desktop/ExperienceSync/ExperienceSync/Views/Shared/_Layout.cshtml]
+[C:/UNIVERSIDAD/DISEÑO Y DESARROLLO/TropicApp/ExperienceSync/ExperienceSync/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1gpna7cdjo

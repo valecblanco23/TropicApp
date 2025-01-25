@@ -8094,11 +8094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\florm\\Desktop\\ExperienceSync\\ExperienceSync\\ExperienceSync.csproj",
+      "projectUniqueName": "C:\\UNIVERSIDAD\\DISEÑO Y DESARROLLO\\TropicApp\\ExperienceSync\\ExperienceSync\\ExperienceSync.csproj",
       "projectName": "ExperienceSync",
-      "projectPath": "C:\\Users\\florm\\Desktop\\ExperienceSync\\ExperienceSync\\ExperienceSync.csproj",
+      "projectPath": "C:\\UNIVERSIDAD\\DISEÑO Y DESARROLLO\\TropicApp\\ExperienceSync\\ExperienceSync\\ExperienceSync.csproj",
       "packagesPath": "C:\\Users\\florm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\florm\\Desktop\\ExperienceSync\\ExperienceSync\\obj\\",
+      "outputPath": "C:\\UNIVERSIDAD\\DISEÑO Y DESARROLLO\\TropicApp\\ExperienceSync\\ExperienceSync\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

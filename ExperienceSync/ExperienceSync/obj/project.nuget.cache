@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yoGUbWJMKLc=",
+  "dgSpecHash": "iluqTUOTDFs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\florm\\Desktop\\ExperienceSync\\ExperienceSync\\ExperienceSync.csproj",
+  "projectFilePath": "C:\\UNIVERSIDAD\\DISEÑO Y DESARROLLO\\TropicApp\\ExperienceSync\\ExperienceSync\\ExperienceSync.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\florm\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\florm\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
