@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExperienceSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8880e83dcfbb0b7e1d1a9225ccd9e6e66569480")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74afd32d7a7af10d5e4432fe876bd3ebebb4ad62")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExperienceSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExperienceSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
